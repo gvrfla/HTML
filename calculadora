@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 08 - Formulários</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<h1>Formulários select</h1>
+<form method="post" action="aula.php">
+<fieldset>
+<legend>Continuação</legend>
+Estado:<select>
+<optgroup label="Região Sudeste">
+<option>MG</option>
+<option>RJ</option>
+<option>ES</option>
+<option>SP</option>
+</optgroup>
+</select>
+<h2>Comentários:</h2>
+<textarea rows=5 cols=20>
+</textarea><br>
+<input type="submit" value="Xô desgraça!" /><br> 
+<input type="button" value="Sai que é sua Taffarel" /><br>
+<input type="reset" value="Fez cagada né" /><br>
+<input type="color" name="cor" id="cor" />
+Mínimo <input type="range" min=0 max=40 />Máximo
+</form>
+<form><fieldset><legend>Calculadora</legend>
+<table border=1>
+	<center>
+		<tr>
+			<td colspan=4><input type="text" size=14></td>
+		
+		</tr>
+		<tr>
+			<td><input type="submit" value="7" /></td>
+			<td><input type="submit" value="8" /></td>
+			<td><input type="submit" value="9" /></td>
+			<td colspan=2><input type="submit" value="   +   " /></td>
+			
+		</tr>
+		<tr>
+			<td><input type="submit" value="4" /></td>
+			<td><input type="submit" value="5" /></td>
+			<td><input type="submit" value="6" /></td>
+			<td colspan=2><input type="submit" value="   -   " /></td>
+			
+		</tr>
+		<tr>
+			<td><input type="submit" value="1" /></td>
+			<td><input type="submit" value="2" /></td>
+			<td><input type="submit" value="3" /></td>
+			<td><input type="submit" value="   /   " /></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value=". " /></td>
+			<td><input type="submit" value="0" /></td>
+			<td><input type="submit" value="=" /></td>
+			<td><input type="submit" value="   *   " /></td>
+		</tr>
+		<tr>
+			<td colspan=4><input type="submit" value="          Limpar         "></td>
+		</tr>
+	</fieldset>
+</table>
+</center>
+</body>
+
+</html>
